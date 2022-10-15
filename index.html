@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="respnsive.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <h3 class="home-style">HOME</h3>
+            <h3 class="guest-style">GUEST</h3>
+            <h3 id="number-style">0</h3>
+            <h3 id="num-style">0</h3>
+            
+            <div class="button-home">
+                <scan class="man">
+                <button id="button1Hm" onclick="increaseByOne()">+1</button>
+                <button id="button2Hm" onclick="increaseByTwo()">+2</button>
+                <button id="button3Hm" onclick="increaseByThree()">+3</button>
+                <button id="reset-btn" onclick="resetBtn()">RESET</button>
+                <button id="foul-home-btn" onclick="homeFoul()">FOUL</button>
+                </scan>
+
+                <scan class="button-guest">
+                    <button id="button1Gs" onclick="increaseByOneE()">+1</button>
+                    <button id="button2Gs" onclick="increaseByTwoO()">+2</button>
+                    <button id="button3Gs" onclick="increaseByThreeE()">+3</button>
+                    <button id="foul-guest-btn" onclick="awayFoul()">FOUL</button>
+                </scan>
+        <div>
+            <script src="index.js"></script>
+    </body>
+</html>

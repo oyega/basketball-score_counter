@@ -1,0 +1,31 @@
+/*@media (max-width: 799px) {
+    }
+
+    
+    }
+
+    #button1Hm, #button2Hm, #button3Hm {margin-left: px;}
+
+    #button1Hm, #button2Hm, #button3Hm {display: block; margin-left: 20px;}
+
+    #num-style {margin-left: 120px;}
+
+    .guest-style {margin-left: 120px;}
+
+    #button1Gs, #button2Gs, #button3Gs {display: block;}
+    .parent {display: block; margin-top: px;}
+    }*/
+
+    @media (max-width: 700px) {
+        .home-style {margin-left: 8px;}
+        #number-style {margin-left: 0px; margin-right: 0px;}
+        #num-style{margin-left: 90px;}
+        .guest-style {margin-left: 100px;}
+        .button-guest {margin-left: 240px; display: flex; flex-direction:column;}
+        .button-home {display: flex; width: 10px;}
+        .home-partition {display: block;}
+        .man {display: flex; flex-direction:column; margin-left: 50px;}
+        .container {background-color: brown; width: 650px; height: 100vh;}
+        body {height: 0px;}
+        
+    }
