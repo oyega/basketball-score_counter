@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    background-color: brown;
+    margin-inline: auto;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-style {
+    margin-top: 68px;
+    margin-left: 120px;
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.guest-style {
+    margin-top: 68px;
+    margin-left: 380px;
+    margin-right: 86;
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 340px;
+    top: 68px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+#number-style {
+    position: absolute;
+min-width: 117px;
+min-height: 120px;
+left: 100px;
+top: 125px;
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+text-align: center;
+color: #F94F6D;
+background-color: black;
+margin-left: 100px;
+margin-top: 125px;
+min-width: 155px;
+min-height: 120px;
+}
+
+.number-container {
+    margin-left: 82px;
+    top: 125px;
+    left: 82px;
+}
+
+#num-style {
+    margin-top: 125px;
+    position: absolute;
+    min-width: 157px;
+    min-height: 120px;
+    left: 355px;
+    top: 125px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    margin-left: 355px;
+background-color: black;
+}
+
+.button-home {
+    position: absolute;
+left: 82px;
+top: 251px;
+margin-left: 0px;
+margin-top: 200px;
+}
+
+.button-guest {
+    margin-left: 120px;
+}
+
+#button1Hm, #button2Hm, #button3Hm {
+    border-radius: 5px;
+    color: white;
+    height: 45px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: green;width: 60px;
+    margin: 2px;
+}
+
+#button1Gs, #button2Gs, #button3Gs {
+    border-radius: 5px;
+    height: 45px;
+    color: white;
+    width: 60px;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0px;
+    background-color: green;
+}
+
+.parent {
+    display: inline-flex;
+    margin-left: 250px;
+}
+
+#reset-btn {
+    border-radius: 5px;
+    height: 45px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 2px;
+    background-color: red;
+}
+
+#foul-home-btn {
+    border-radius: 5px;
+    height: 45px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 3px;
+    background-color: gold;
+    margin-left: 0px;
+    background-color: aquamarine;
+    color: black;
+}
+
+#foul-guest-btn {
+    border-radius: 5px;
+    height: 45px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0px;
+    background-color: gold;
+    margin-left: 3px;
+    background-color: aquamarine;
+    color: black;
+}
+@font-face{
+    font-family: ;
+}
